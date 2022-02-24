@@ -1,0 +1,57 @@
+$layout-name: "l-beneficios1";
+
+.#{$layout-name}{
+   background-image: url(../img/background-b1.png);
+   background-repeat: no-repeat;
+    padding: 50px;
+    
+
+    @include breakpoint(medium-only){
+        background-repeat: repeat-y;
+    }
+
+    
+    
+    &__title{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.3em;
+        
+        span{
+            font-weight: 900;
+            text-transform: uppercase;
+            color: var(--color-webfatorial-white);
+        }
+    }
+
+    &__content{
+        text-align: center;
+
+        p{
+            color: var(--color-webfatorial-white);
+            margin: 0 auto;
+        }
+
+        span{
+            font-weight: bold;
+            color: var(--color-webfatorial-yellow);
+        }
+
+        button{
+            cursor: pointer;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: rem(5);
+            border: none;
+            padding: rem(15);
+            background-color: var(--color-webfatorial-yellow);
+            margin-top: rem(25);
+
+            &:hover{
+                background-color: #a1810e;
+                transition: 0.5s;
+            }
+        }
+    }
+}

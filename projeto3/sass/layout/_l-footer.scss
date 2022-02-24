@@ -1,0 +1,10 @@
+$layout-name: "l-footer";
+
+.#{$layout-name}{
+    text-align: center;
+    color: var(--color-webfatorial-white);
+    background-color: var(--color-webfatorial-dark-blue);
+    padding: 10px;
+
+ 
+}

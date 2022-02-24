@@ -1,0 +1,106 @@
+/*Resentando margin e padding*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*body*/
+body{
+    background-color: #dddd;
+}
+
+/*container*/
+.table-principal{
+    background-image: url(../img/background_body-1.png);
+     margin: 20px auto 20px auto; 
+     width: 650px; 
+     height:780px;
+}
+
+.logo{
+    float: left; margin: 0 0 0 20px;
+}
+
+/*Header secundario*/
+#header-secundary{
+    background-color: #ec6608; 
+    height: 40px;
+}
+
+#header-secundary td{
+    color: white; 
+    font-weight: bold; 
+    font-size: 18px;
+}
+
+#header-secundary td img{
+    float: right; 
+    margin: 0 25px 0 0;
+}
+
+/*table-conteudo*/
+#table-conteudo{
+    background-color: white; 
+    margin: 20px auto 20px auto; 
+    width: 600px;
+    height: 500px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
+
+#table-conteudo td{
+    padding: 10px;
+}
+
+/*buttons*/
+#botoes{
+    margin-top: 50px;
+    display: flex; 
+    flex-direction: column;
+    padding: 20px;   
+}
+
+#botoes .btn-orange{
+    cursor: pointer;
+    margin: 0 auto;
+    font-weight: bold;
+    height: 48px;
+    background-color: #ec6608;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    width: 300px;
+}
+
+#botoes .btn-green{
+    cursor: pointer;
+    margin: 0 auto;
+    font-weight: bold;
+    background-color: #37bb84;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    width: 300px;
+}
+
+
+#botoes .btn-green img {
+    width: 25px;
+    padding-left: 35px;
+}
+
+/*footer*/
+#footer{
+    background-color: #003770;
+}
+
+#footer table{
+    color: white;
+    margin: 0 auto;
+}
+
+
+
+
+

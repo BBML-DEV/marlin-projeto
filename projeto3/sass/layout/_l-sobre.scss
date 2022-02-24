@@ -1,0 +1,63 @@
+$layout-name: "l-sobre";
+
+.#{$layout-name}{
+    padding: rem(30);
+    background-color: var(--color-webfatorial-blue-baby);
+    margin-top: -12px;
+
+    
+    p{
+        text-align: center;
+        text-transform: uppercase;
+        color: var(--color-webfatorial-white);
+
+        a{
+            color: var(--color-webfatorial-yellow);
+        }
+    }
+
+    &__text{
+        text-align: center;
+        color: var(--color-webfatorial-white);
+
+        h2{
+            text-transform: uppercase;
+            font-size: 1.6em;
+        }
+
+    }
+
+    &__servicos{
+        display: flex;
+        justify-content: space-around;
+        margin: 70px;
+        flex-wrap: wrap;
+  
+       
+
+        .servico_container{
+            width: 300px;
+            height: 300px;
+            margin-top: 15px;
+            border-radius: 5px;
+            background-color: var(--color-webfatorial-white);
+            
+
+            
+            .img-container{
+              width: 100px;
+              margin: 20px auto 0px auto;
+            }
+
+            .text-container{
+                p{
+                    color: var(--color-webfatorial-principal);
+                }
+            }
+            
+
+        }
+    }
+    
+
+}

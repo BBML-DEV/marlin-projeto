@@ -1,0 +1,38 @@
+/*Resentando padding e margin*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*body*/
+body{
+    background-color: #ddd;
+}
+
+/*container principal*/
+
+#container{
+    margin: 20px auto;
+    width: 649px;
+}
+
+/*banner*/
+#banner{
+    margin-top: -4px;
+}
+
+/*article*/
+article{
+    margin-top: -4px;
+}
+
+/*main*/
+main{
+    margin-top: -4px;
+}
+
+/*valores*/
+#valores{
+    margin-top: -4px;
+    display: flex;
+}
